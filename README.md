@@ -2,7 +2,7 @@
 
 Proyecto de **Introducción a la Programación y Computación 1**: sistema de inventario en **Java** (consola), usando **arreglos (vectores)**, manejo de archivos y validaciones.
 
-## 🧩 Funcionalidades
+##  Funcionalidades
 - Agregar producto (código único, precio > 0, stock ≥ 0)
 - Buscar producto (por **código**, **nombre** o **categoría**)
 - Eliminar producto (con confirmación y compactación del arreglo)
@@ -12,13 +12,13 @@ Proyecto de **Introducción a la Programación y Computación 1**: sistema de in
 - Ver datos del estudiante
 
 
-## 🛠 Requisitos
+##  Requisitos
 - Java **17+** (o el que use tu NetBeans)
 - **Apache NetBeans 24**
 - Consola (sin GUI)
 - **Sin** colecciones (no `ArrayList`, `HashMap`, etc.)
 
-## ▶️ Cómo ejecutar
+## ▶ Cómo ejecutar
 1. Abrir el proyecto en **NetBeans 24**.
 2. Asegurarte de que `Main.java` tenga el `public static void main`.
 3. **Run (F6)**.
@@ -26,7 +26,7 @@ Proyecto de **Introducción a la Programación y Computación 1**: sistema de in
 
 > Si `inventario.txt` existe en la carpeta raíz del proyecto, se **carga al iniciar**.
 
-## 🧾 Formatos de archivos
+##  Formatos de archivos
 - `inventario.txt`  
   `codigo|nombre|categoria|precio|stock`  
   Ej.: `P001|Camisa básica|Camisas|125.00|20`
@@ -38,7 +38,7 @@ Proyecto de **Introducción a la Programación y Computación 1**: sistema de in
 - `bitacora.txt` (si eliges persistirla al salir)  
   `[dd/MM/yyyy HH:mm:ss] ACCION=AGREGAR RESULTADO=OK USUARIO=Dani COD=P001`
 
-## 🧪 Pruebas rápidas
+##  Pruebas rápidas
 - Agregar 2 productos (uno duplicado → debe **rechazar**).
 - Buscar por código/nombre/categoría.
 - Vender con stock suficiente e **insuficiente** (debe rechazar).
@@ -46,12 +46,12 @@ Proyecto de **Introducción a la Programación y Computación 1**: sistema de in
 - Salir y volver a entrar → que **cargue** inventario desde archivo.
 - Generar reportes (se crean `.txt` con timestamp).
 
-## 📝 Pendientes/Notas
+##  Pendientes/Notas
 - Si la cátedra lo autoriza, generar **PDF** (Stock/Ventas) con PDFBox y nombres:  
   `DD_MM_YYYY_HH_mm_ss_Stock.pdf` y `DD_MM_YYYY_HH_mm_ss_Venta.pdf`.
 - Validaciones adicionales y más mensajes de error amigables.
 
-## 👩‍💻 Estudiante
+##  Estudiante
 - **Nombre:** Sergio Daniel Hernández Juárez
 - **Carné:** 202100246
 - **Sección:** B
