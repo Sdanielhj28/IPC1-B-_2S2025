@@ -147,7 +147,7 @@ public class Main {
                         DatetimeFormatter fmt = DateTimeFormatter.ofPattern("dd_MM_yyyy_HH_mm_ss");
                         String stamp = LocalDateTime.now().format(fmt);
                         
-                        try{
+                        boolean ok;
                             if (opt == 1){
                                 // ---- REPORTE DE STOCK ----
                                 String nombre = stamp + "_Stock.txt";
@@ -195,7 +195,7 @@ public class Main {
                                 System.out.println("Error al generar archivo; " + e.getMessage());
                                 }
                         break;
-                    }
+                    
                     }
                     case 6: {
                         System.out.println("\n--- DATOS DEL ESTUDIANTE ---");
@@ -205,7 +205,19 @@ public class Main {
                         System.out.println("Curso: IPC1 - 2S2025");
                         break;
                     }
-                    case 7: {
+                    case 7:
+                        System.out.println("\n--- BITÁCORA ---");
+                        if (bitacoraSize == 0){
+                            System.out.println("Sin registro aún.");
+                        } else {
+                            for (int i = 0; i< bitacoraSize; i++){
+                                System.out.println((i + 1) + "." + bitacora[i]);
+                            }
+                        }
+                        break:
+            } 
+                    
+                    case 8: {
                         System.out.println("Saliendo del sistema...");
                         break;
                     }
