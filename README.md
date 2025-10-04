@@ -46,11 +46,6 @@ Proyecto de **Introducción a la Programación y Computación 1**: sistema de in
 - Salir y volver a entrar → que **cargue** inventario desde archivo.
 - Generar reportes (se crean `.txt` con timestamp).
 
-##  Pendientes/Notas
-- Si la cátedra lo autoriza, generar **PDF** (Stock/Ventas) con PDFBox y nombres:  
-  `DD_MM_YYYY_HH_mm_ss_Stock.pdf` y `DD_MM_YYYY_HH_mm_ss_Venta.pdf`.
-- Validaciones adicionales y más mensajes de error amigables.
-
 ##  Estudiante
 - **Nombre:** Sergio Daniel Hernández Juárez
 - **Carné:** 202100246
